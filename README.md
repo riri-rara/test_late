@@ -36,28 +36,4 @@ erDiagram
 
 
 
-git clone https://github.com/your/repo.git  # 適切なリポジトリURLを記載  
-cd repo
 
-
- Docker　build
-1. `git clone rink`
-2. `docker-compose up -d --build`
-
-MySQLは、OSによって起動しない場合があるのでそれぞれのPCに合わせて `docker-compose.yml` ファイルを編集してください。
-
- Laravel環境構築
-1. docker-compose exec php bash
-2. composer install
-3. cp .env.example .env
-4. php artisan key:generate
-5. php artisan migrate
-
-使用技術
-- PHP 8.0
-- Laravel 10.0
-- MySQL 8.0
--nginx:1.21.1
- URL
-- 開発環境: [http://localhost](http://localhost/)
-- phpMyAdmin: [http://localhost:8080](http://localhost:8080/)
