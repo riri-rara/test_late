@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f4f1;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #e6dcd4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__title {
+    color: #8a7462;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.header__login-btn {
+    font-size: 16px;
+    color: #584c3b;
+    text-decoration: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(126, 104, 82, 0.1);
+    width: 600px;
+}
+
+.form__heading {
+    color: #584c3b;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form__group {
+    margin-bottom: 20px;
+}
+
+.form__group label {
+    color: #584c3b;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form__input--text input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.form__input--text input[type="text"]:first-child {
+    margin-right: 10px;
+}
+
+.form__submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #b0957f;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form__submit-btn:hover {
+    background-color: #8a7462;
+}
+
+.form__error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
